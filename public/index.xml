@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vincent Pellerin Portfolio</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Vincent Pellerin Portfolio</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>À propos</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Analyste de données doté de solides compétences analytiques.&lt;br&gt;&#xA;Maîtrise technique en SQL pour requêtes sur DataWarehouses, dbt pour modélisation/transformation, et outils de visualisation.&lt;br&gt;&#xA;Objectifs: prises de décisions basées sur les données.&lt;/p&gt;&#xA;&lt;p&gt;EXPERIENCE PROFESSIONNELLE&lt;/p&gt;&#xA;&lt;p&gt;Web Data Analyst - OTM festival (2025)&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;- Implémentation outil de web-tracking Matomo on premise (Docker VPS)&#xA;- Gestion du consentement, anonymisation des utilisateurs&#xA;- Suivi des performances de page et du comportement des utilisateurs&#xA;- Analyse des ventes d’un festival de musique (50% à J-4) (Google Sheet)&#xA;- Analyse performance campagne marketing Meta (BigQuery)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Musicien (2006-2023)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Mail : &lt;a href=&#34;mailto:vpellerindata@gmail.com&#34; &gt;vpellerindata@gmail.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Linkedin logo&#xA;Github logo&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projets</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;h2 id=&#34;2025&#34;&gt;&#xA;  2025&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#2025&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tracking &lt;a href=&#34;https://otmfestival.fr&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OTM festival&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;Installation Matomo Analytics sur un VPS personnel&lt;br&gt;&#xA;Suivi des visites&lt;br&gt;&#xA;Analyse des ventes&lt;br&gt;&#xA;&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pitch.com/v/etude-march-professionnels-spectacle-vivant-sg8287?ref=portf0lio&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Etude des professionnels du spectacle vivant&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&#xA;Effondrement du secteur du spectacle vivant suite au COVID (2025)&lt;br&gt;&#xA;Impact du COVID-19 sur le secteur du spectacle vivant : - 80% de renouvellements de licences&lt;br&gt;&#xA;Nettoyage et analyse de 80.000 lignes avec BigQuery, SQL et Google Sheets&lt;br&gt;&#xA;Segmentation des données pour isoler les acteurs majeurs du secteur&lt;br&gt;&#xA;Visualisations graphiques : cartes, graphiques, tableaux (Datawrapper, Google Sheet)&lt;br&gt;&#xA;Identification des secteurs dominants et des types d&amp;rsquo;utilisateurs clés (par exemple, individuels contre autres personnes physiques)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

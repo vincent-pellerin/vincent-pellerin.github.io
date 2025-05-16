@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vincent Pellerin Portfolio</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content on Vincent Pellerin Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description>&lt;p&gt;Data analyst with strong analytical skills.&lt;br&gt;&#xA;Technical proficiency in SQL for queries on DataWarehouses, dbt for modeling/transformation, and visualization tools.&lt;br&gt;&#xA;Objective: data-driven decision-making.&lt;/p&gt;&#xA;&lt;p&gt;PROFESSIONAL EXPERIENCE&lt;/p&gt;&#xA;&lt;p&gt;Web Data Analyst - OTM festival (2025)&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;- Implementation of Matomo web-tracking tool on premise (Docker VPS)&#xA;- Consent management, user anonymization&#xA;- Page performance and user behavior tracking&#xA;- Music festival sales analysis (50% to D-4) (Google Sheet)&#xA;- Meta marketing campaign performance analysis (BigQuery)&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Musician (2006-2023)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/en/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/contact/</guid>
+      <description>&lt;p&gt;Mail : &lt;a href=&#34;mailto:vpellerindata@gmail.com&#34; &gt;vpellerindata@gmail.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Linkedin logo&#xA;Github logo&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/en/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/</guid>
+      <description>&lt;p&gt;2025&lt;/p&gt;&#xA;&lt;p&gt;Tracking OTM festival&lt;br&gt;&#xA;Matomo Analytics inst\allation on a personal VPS&lt;br&gt;&#xA;Visit tracking&lt;br&gt;&#xA;Sales analysis&lt;br&gt;&#xA;&amp;hellip;\&lt;/p&gt;&#xA;&lt;p&gt;Survey of performing arts professionals&lt;br&gt;&#xA;Collapse of the performing arts sector following COVID (2025)&lt;br&gt;&#xA;Impact of COVID-19 on the live entertainment sector : - 80% of license renewals&lt;br&gt;&#xA;Cleansing and analysis of 80,000 rows using BigQuery, SQL and Google Sheets&lt;br&gt;&#xA;Data segmentation to isolate major industry players&lt;br&gt;&#xA;Graphic visualizations: maps, graphs, tables (Datawrapper, Google Sheet)&lt;br&gt;&#xA;Identification of dominant sectors and key user types (e.g. individuals vs. other natural persons)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
