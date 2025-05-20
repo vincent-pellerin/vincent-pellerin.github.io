@@ -11,15 +11,15 @@ author = "Vincent Pellerin"
 
 **Data analyst** with strong analytical skills.\
 Technical proficiency in :\
-- SQL for queries on DataWarehouses,\
-- dbt for data modeling/transformation,\
-- visualization tools.\
-**Goals**: data-driven decision-making.
+- SQL for queries on DataWarehouses,
+- dbt for data modeling/transformation,
+- visualization tools.
+
+*Goals*: data-driven decision-making.
 
 **PROFESSIONAL EXPERIENCE**
 
 *Web Data Analyst - OTM festival (2025)*
-
 
 - Implementation of Matomo web-tracking tool on premise (Docker VPS)
 - Consent management, user anonymization
@@ -47,7 +47,6 @@ Technical proficiency in :\
 - Market knowledge and strategic awareness
 - Continuous learning mindset
 - Interdisciplinary collaboration
-
 
 **LANGUAGES**
 

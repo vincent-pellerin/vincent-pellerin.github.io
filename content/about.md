@@ -8,10 +8,11 @@ author = "Vincent Pellerin"
 
 
 **Analyste de données** doté de solides compétences analytiques.\
-Maîtrise technique :\
-- SQL pour requêtes sur DataWarehouses,\
-- dbt pour modélisation/transformation de données,\
+Maîtrise technique :
+- SQL pour requêtes sur DataWarehouses,
+- dbt pour modélisation/transformation de données,
 - et outils de visualisation.\
+
 *Objectifs*: prises de décisions basées sur les données.
 
 **EXPERIENCE PROFESSIONNELLE**
@@ -44,7 +45,6 @@ Maîtrise technique :\
 - Connaissance du marché et conscience stratégique
 - Mindest d’apprentissage continu
 - Collaboration interdisciplinaire
-
 
 **LANGUES**
 
