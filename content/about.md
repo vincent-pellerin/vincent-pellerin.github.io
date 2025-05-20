@@ -11,13 +11,13 @@ author = "Vincent Pellerin"
 Maîtrise technique :
 - SQL pour requêtes sur DataWarehouses,
 - dbt pour modélisation/transformation de données,
-- et outils de visualisation.\
+- et outils de visualisation.
 
 *Objectifs*: prises de décisions basées sur les données.
 
-**EXPERIENCE PROFESSIONNELLE**
+## EXPERIENCE PROFESSIONNELLE
 
-*Web Data Analyst - OTM festival (2025)*
+### Web Data Analyst - OTM festival (2025)
 
 - Implémentation outil de web-tracking Matomo on premise (Docker VPS)
 - Gestion du consentement, anonymisation des utilisateurs
@@ -25,12 +25,12 @@ Maîtrise technique :
 - Analyse des ventes d’un festival de musique (50% à J-4) (Google Sheet)
 - Analyse performance campagne marketing Meta (BigQuery)
 
-*Musicien (2006-2023)*
+### Musicien (2006-2023)
 
 - Concerts, Enregistrements studio, Enseignement
 - Négociation commerciale
 
-**COMPÉTENCES TECHNIQUES**
+## COMPÉTENCES TECHNIQUES
 
 - Analyse de données : SQL , Excel, Python (en apprentissage)
 - Modélisation et transformation de données : dbt 
@@ -39,14 +39,14 @@ Maîtrise technique :
 - Contrôle de version : Git, GitHub
 - Web : Google Analytics, Google Tag Manager, Matomo
 
-**COMPÉTENCES SOFT**
+## COMPÉTENCES SOFT
 
 - Créativité autour de la résolution de problèmes
 - Connaissance du marché et conscience stratégique
 - Mindest d’apprentissage continu
 - Collaboration interdisciplinaire
 
-**LANGUES**
+## LANGUES
 
 - Français : Natif  
 - Anglais : B2  
