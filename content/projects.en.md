@@ -10,7 +10,7 @@ slug = "projects"
 Matomo Analytics installation on a personal VPS\
 Visit tracking\
 Sales analysis\
-...\
+...
 
 ### [Survey of performing arts professionals][etudelink]
 
