@@ -5,13 +5,15 @@ slug = "projects"
 
 ## 2025
 
-**Tracking [OTM festival][otmlink]**\
+### Tracking [OTM festival][otmlink]
+
 Installation Matomo Analytics sur un VPS personnel\
 Suivi des visites\
 Analyse des ventes\
 ...
 
-**[Etude des professionnels du spectacle vivant][etudelink]**\
+### [Etude des professionnels du spectacle vivant][etudelink]
+
 Effondrement du secteur du spectacle vivant suite au COVID (2025)\
 Impact du COVID-19 sur le secteur du spectacle vivant : - 80% de renouvellements de licences\
 Nettoyage et analyse de 80.000 lignes avec BigQuery, SQL et Google Sheets\
