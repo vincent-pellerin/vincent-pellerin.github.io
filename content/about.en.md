@@ -9,8 +9,11 @@ author = "Vincent Pellerin"
 
 
 
-Data analyst with strong analytical skills.\
-Technical proficiency in SQL for queries on DataWarehouses, dbt for modeling/transformation, and visualization tools.\
+**Data analyst** with strong analytical skills.\
+Technical proficiency in :\
+- SQL for queries on DataWarehouses,\
+- dbt for data modeling/transformation,\
+- visualization tools.\
 **Goals**: data-driven decision-making.
 
 **PROFESSIONAL EXPERIENCE**
