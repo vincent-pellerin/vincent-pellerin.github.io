@@ -11,44 +11,44 @@ author = "Vincent Pellerin"
 
 Data analyst with strong analytical skills.\
 Technical proficiency in SQL for queries on DataWarehouses, dbt for modeling/transformation, and visualization tools.\
-Objective: data-driven decision-making.
+**Goals**: data-driven decision-making.
 
-PROFESSIONAL EXPERIENCE
+**PROFESSIONAL EXPERIENCE**
 
-Web Data Analyst - OTM festival (2025)
-
-
-	- Implementation of Matomo web-tracking tool on premise (Docker VPS)
-	- Consent management, user anonymization
-	- Page performance and user behavior tracking
-	- Music festival sales analysis (50% to D-4) (Google Sheet)
-	- Meta marketing campaign performance analysis (BigQuery)
-
-Musician (2006-2023)
-
-	- Concerts, Studio recordings, Teaching
-	- Commercial negotiation
-
-TECHNICAL SKILLS
-
-	- Data analysis: SQL , Excel, Python (apprenticeship)
-	- Data modeling and transformation: dbt 
-	- Visualization: Looker Studio, Superset, Tableau ...
-	- Data integration : Airbyte, API integration (Postman)
-	- Version control: Git, GitHub
-	- Web: Google Analytics, Google Tag Manager, Matomo
-
-SOFT SKILLS
-
-	- Creative problem-solving
-	- Market knowledge and strategic awareness
-	- Continuous learning mindset
-	- Interdisciplinary collaboration
+*Web Data Analyst - OTM festival (2025)*
 
 
-LANGUAGES
+- Implementation of Matomo web-tracking tool on premise (Docker VPS)
+- Consent management, user anonymization
+- Page performance and user behavior tracking
+- Music festival sales analysis (50% to D-4) (Google Sheet)
+- Meta marketing campaign performance analysis (BigQuery)
 
-French: Native | English: B2 | Spanish: Conversational
+*Musician (2006-2023)*
+
+- Concerts, Studio recordings, Teaching
+- Commercial negotiation
+
+**TECHNICAL SKILLS**
+
+- Data analysis: SQL , Excel, Python (apprenticeship)
+- Data modeling and transformation: dbt 
+- Visualization: Looker Studio, Superset, Tableau ...
+- Data integration : Airbyte, API integration (Postman)
+- Version control: Git, GitHub
+- Web: Google Analytics, Google Tag Manager, Matomo
+
+**SOFT SKILLS**
+
+- Creative problem-solving
+- Market knowledge and strategic awareness
+- Continuous learning mindset
+- Interdisciplinary collaboration
 
 
-Translated with DeepL.com (free version)
+**LANGUAGES**
+
+- French: Native  
+- English: B2  
+- Spanish: Conversational
+
