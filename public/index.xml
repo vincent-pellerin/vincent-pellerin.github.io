@@ -20,7 +20,7 @@
       <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;p&gt;Mail : &lt;a href=&#34;mailto:vpellerindata@gmail.com&#34; &gt;vpellerindata@gmail.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Linkedin logo&#xA;Github logo&lt;/p&gt;</description>
+      <description>&lt;p&gt;Mail : &lt;a href=&#34;mailto:vpellerindata@gmail.com&#34; &gt;vpellerindata@gmail.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;[[params.social]]&#xA;name = &amp;ldquo;Github&amp;rdquo;&#xA;icon = &amp;ldquo;fa-brands fa-github fa-2x&amp;rdquo;&#xA;weight = 1&#xA;url = &amp;ldquo;&lt;a href=&#34;https://github.com/vincent-pellerin/%22&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/vincent-pellerin/&#34;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;[[params.social]]&#xA;name = &amp;ldquo;LinkedIn&amp;rdquo;&#xA;icon = &amp;ldquo;fa-brands fa-linkedin fa-2x&amp;rdquo;&#xA;weight = 4&#xA;url = &amp;ldquo;&lt;a href=&#34;https://www.linkedin.com/in/vincentpellerin-data/%22&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.linkedin.com/in/vincentpellerin-data/&#34;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Projets</title>
