@@ -8,14 +8,6 @@ enableEmoji = true
 
   <h1 style="margin-bottom: 40px;">Contact</h1>
 
-## Contact me :
-
-<div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px; margin-bottom: 30px;">
-  <a href="#" onclick="window.location.href=atob('bWFpbHRvOnZwZWxsZXJpbmRhdGFAZ21haWwuY29t')" title="Email" style="text-decoration: none; color: inherit;">
-    <i class="fa-solid fa-envelope fa-2x"></i>
-  </a>
-</div>
-
 ## Follow me on :
 
 <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
