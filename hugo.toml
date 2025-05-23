@@ -56,7 +56,10 @@ customJS = []
 # Custom remote JS files
 customRemoteJS = []
 
-
+faviconSVG = "/favicon.svg"
+favicon_32 = "/favicon-96x96.png"
+favicon_16 = "/favicon-96x96.png"
+touchicon = "/apple-touch-icon.png"
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 # [params.fathomAnalytics]
