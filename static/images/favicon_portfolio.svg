@@ -1,0 +1,15 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+    text {
+      font-family: 'Merriweather', serif;
+      font-size: 32px;
+      font-weight: 800;
+      text-anchor: middle;
+      fill: #2A4759;
+    }
+  </style>
+
+  <text x="14" y="34">V</text>
+  <text x="36" y="34">P</text>
+</svg>
