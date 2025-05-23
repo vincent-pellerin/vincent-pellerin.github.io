@@ -1,9 +1,13 @@
+[![GitHub Pages](https://img.shields.io/github/deployments/vincent-pellerin/vincent-pellerin.github.io/github-pages?label=Deploy&logo=github)](https://vincent-pellerin.github.io)
+[![Theme: Hugo Coder](https://img.shields.io/badge/theme-hugo--coder-blue)](https://github.com/luizdepra/hugo-coder)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Portfolio – Data Analyst / Analytics Engineer
 
 Welcome to the repository of my professional portfolio. This static site is built with [Hugo](https://gohugo.io/) and uses the [hugo-coder](https://github.com/luizdepra/hugo-coder) theme. It showcases my background, projects, and contact information.
 
-[![GitHub Pages](https://img.shields.io/github/deployments/vincent-pellerin/vincent-pellerin.github.io/github-pages?label=Deploy&logo=github)](https://vincent-pellerin.github.io)
-[![CI](https://github.com/vincent-pellerin/vincent-pellerin.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/vincent-pellerin/vincent-pellerin.github.io/actions/workflows/hugo.yml)
+
+
 
 🔗 [Visit the site](https://vincent-pellerin.github.io)
 
