@@ -3,7 +3,7 @@
 Bienvenue sur le dépôt de mon portfolio professionnel. Ce site statique a été conçu avec [Hugo](https://gohugo.io/) et utilise le thème [hugo-coder](https://github.com/luizdepra/hugo-coder). Il présente mon parcours, mes projets et mes coordonnées.
 
 [![GitHub Pages](https://img.shields.io/github/deployments/vincent-pellerin/vincent-pellerin.github.io/github-pages?label=Deploy&logo=github)](https://vincent-pellerin.github.io)
-[![CI](https://github.com/vincent-pellerin/vincent-pellerin.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/vincent-pellerin/vincent-pellerin.github.io/actions)
+[![CI](https://github.com/vincent-pellerin/vincent-pellerin.github.io/actions/workflows/hugo.yml/badge.svg)](https://github.com/vincent-pellerin/vincent-pellerin.github.io/actions/workflows/hugo.yml)
 
 
 🔗 [Accéder au site](https://portfolio.vpdata.fr)
