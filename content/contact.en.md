@@ -14,9 +14,6 @@ enableEmoji = true
   <a href="#" onclick="window.location.href=atob('bWFpbHRvOnZwZWxsZXJpbmRhdGFAZ21haWwuY29t')" title="Email" style="text-decoration: none; color: inherit;">
     <i class="fa-solid fa-envelope fa-2x"></i>
   </a>
-  <a href="#" onclick="window.location.href=atob('aHR0cHM6Ly93YS5tZS8zMzYwOTUzOTUxNA==')" title="WhatsApp" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;">
-    <i class="fa-brands fa-whatsapp fa-2x"></i>
-  </a>
 </div>
 
 ## Follow me on :
