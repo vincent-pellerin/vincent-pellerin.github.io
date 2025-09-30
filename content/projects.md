@@ -7,10 +7,10 @@ slug = "projects"
 
 ### Data Analyst & Digital Marketer [Les Bredelers][bredlink]
 
-Recherche de données optimales pour le développement du groupe
-Tracking des visiteurs sur le site (matomo analytics)
-Evaluation de la performance de contenu sur les réseaux sociaux (Youtube & Meta)
-Développement stratégique : retours et conseils
+Recherche de données optimales pour le développement du groupe\
+Tracking des visiteurs sur le site (matomo analytics)\
+Evaluation de la performance de contenu sur les réseaux sociaux (Youtube & Meta)\
+Développement stratégique : retours et conseils\
 
 ### Tracking [OTM festival][otmlink]
 

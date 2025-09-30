@@ -7,10 +7,10 @@ slug = "projects"
 
 ### Data Analyst & Digital Marketer [Les Bredelers][bredlink]
 
-Find optimal insights for music band development
-Tracking website visitors with matomo
-Performance content evaluation on social networks (Youtube & Meta)
-Give feedback and advices for strategic development
+Find optimal insights for music band development\
+Tracking website visitors with matomo\
+Performance content evaluation on social networks (Youtube & Meta)\
+Give feedback and advices for strategic development\
 
 ### Tracking [OTM festival][otmlink]
 
