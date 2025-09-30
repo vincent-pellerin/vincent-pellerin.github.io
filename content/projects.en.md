@@ -5,6 +5,13 @@ slug = "projects"
 
 ## 2025
 
+### Data Analyst & Digital Marketer [Les Bredelers][bredlink]
+
+Find optimal insights for music band development
+Tracking website visitors with matomo
+Performance content evaluation on social networks (Youtube & Meta)
+Give feedback and advices for strategic development
+
 ### Tracking [OTM festival][otmlink]
 
 Matomo Analytics installation on a personal VPS\
@@ -23,4 +30,5 @@ Identification of dominant sectors and key user types (e.g. individuals vs. othe
 
 
 [otmlink]: https://otmfestival.fr
-[etudelink]:https://pitch.com/v/etude-march-professionnels-spectacle-vivant-sg8287?ref=portf0lio
+[etudelink]: https://pitch.com/v/etude-march-professionnels-spectacle-vivant-sg8287?ref=portf0lio
+[bredlink]: https://www.bredelers.com

@@ -17,6 +17,14 @@ Maîtrise technique :
 
 ## EXPERIENCE PROFESSIONNELLE
 
+### Music Data Analyst
+
+- Analyse croisée multi-platformes (Youtube - Meta) sur la performance de contenus
+- Pipeline d'ingestion ELT depuis Youtube Analytics & Data API (v2 & v3)
+- Pipeline d'ingestion ELT depuis Meta Graph API
+- Stockage des données dans Google Bigquery
+- Transformations avec dbt
+
 ### Web Data Analyst - OTM festival (2025)
 
 - Implémentation outil de web-tracking Matomo on premise (Docker VPS)

@@ -16,6 +16,14 @@ Technical proficiency in :\
 
 ## PROFESSIONAL EXPERIENCE
 
+### Music Data Analyst
+
+- Cross platform analysis (Youtube - Meta) on content performance
+- Pipeline integration ELT from Youtube Analytics & Data API (v2 & v3)
+- Pipeline integration ELT from Meta Graph API
+- Storage in Google Bigquery
+- Transformations with dbt
+
 ### Web Data Analyst - OTM festival (2025)
 
 - Implementation of Matomo web-tracking tool on premise (Docker VPS)
