@@ -126,7 +126,7 @@ formaction = ["'self'"]
 framesrc = ["'self'"] # add here youtube url if needed
 imgsrc = [
     "'self'",
-    "data:", 
+    "data:",
     "https://fonts.gstatic.com",
     ]
 objectsrc = ["'none'"]
@@ -149,8 +149,10 @@ prefetchsrc = ["'self'"]
 connectsrc = [
    "'self'",
    "https://www.google-analytics.com",
+   "https://analytics.google.com",
    "https://stats.g.doubleclick.net",
    "https://region1.google-analytics.com",
+   "https://region1.analytics.google.com",
 ]
 
 [taxonomies]
@@ -170,7 +172,7 @@ url = "https://github.com/vincent-pellerin/"
 # icon = "fa-brands fa-gitlab fa-2x"
 # weight = 2
 # url = "https://gitlab.com/johndoe/"
-# 
+#
 # [[params.social]]
 # name = "Twitter"
 # icon = "fa-brands fa-x-twitter fa-2x"
@@ -242,6 +244,3 @@ url = "projects/"
 name = "Contact me"
 weight = 5
 url = "contact/"
-
-
-
