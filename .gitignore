@@ -1,0 +1,28 @@
+# Hugo build output
+public/
+resources/
+
+# Hugo build lock
+.hugo_build.lock
+
+# OpenCode local configuration
+.opencode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+
+# Secrets (but NOT .secrets.baseline which should be committed)
+*.key
+*.pem
+credentials.json

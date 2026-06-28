@@ -1,61 +1,54 @@
 +++
 title = "À propos"
-description = "Parcours personnel Vincent Pellerin" 
-date = "2025-05-16" 
-aliases = ["about-fr", "about-vincentpellerin", "contact"] 
-author = "Vincent Pellerin" 
+description = "Product & Data Strategist — Psychologie & IA"
+date = "2026-06-28"
+aliases = ["about-fr"]
+author = "Vincent Pellerin"
 +++
 
+**Product & Data Strategist** — Je construis des produits data qui transforment
+les signaux utilisateurs en décisions actionnables.
 
-**Analyste de données** doté de solides compétences analytiques.\
-Maîtrise technique :
-- SQL pour requêtes sur DataWarehouses,
-- dbt pour modélisation/transformation de données,
-- et outils de visualisation.
+Ce qui me différencie : 20 ans de lecture des dynamiques humaines (psychologie,
+musique, pédagogie) combinés à une stack data opérationnelle de bout en bout.
+Ratio 60/40 psychologie/data — je lis les besoins latents là où la plupart des
+profils data ne lisent que les chiffres.
 
-*Objectifs*: prises de décisions basées sur les données.
+## CE QUE JE CONSTRUIS
 
-## EXPERIENCE PROFESSIONNELLE
+- **Produits data full-stack** : ingestion API → modélisation SQL/dbt → interface → déploiement Docker
+- **Automatisation par agents IA** : pipelines LangGraph, scripts Python, cron VPS
+- **Infrastructure autonome** : VPS Linux, Traefik, CI/CD GitHub Actions
 
-### Music Data Analyst
+## EXPÉRIENCE
 
-- Analyse croisée multi-platformes (Youtube - Meta) sur la performance de contenus
-- Pipeline d'ingestion ELT depuis Youtube Analytics & Data API (v2 & v3)
-- Pipeline d'ingestion ELT depuis Meta Graph API
-- Stockage des données dans Google Bigquery
-- Transformations avec dbt
+### Product & Data — Les Bredelers (2024-présent)
 
-### Web Data Analyst - OTM festival (2025)
+- Pipeline ELT unifié YouTube + Meta : ingestion dlt, transformations dbt, stockage BigQuery
+- Modèle OBT ~2 300 lignes alimentant un dashboard analytics
+- Orchestration automatisée via GitHub Actions (3 runs/jour)
 
-- Implémentation outil de web-tracking Matomo on premise (Docker VPS)
-- Gestion du consentement, anonymisation des utilisateurs
-- Suivi des performances de page et du comportement des utilisateurs
-- Analyse des ventes d’un festival de musique (50% à J-4) (Google Sheet)
-- Analyse performance campagne marketing Meta (BigQuery)
+### Web Analytics — OTM Festival (2025)
 
-### Musicien (2006-2023)
+- Déploiement on-premise de Matomo Analytics (Docker VPS)
+- Gestion du consentement RGPD, anonymisation des utilisateurs
+- Analyse des ventes : 50% des billets vendus à J-4
 
-- Concerts, Enregistrements studio, Enseignement
-- Négociation commerciale
+### Musicien professionnel (2006-2023)
 
-## COMPÉTENCES TECHNIQUES
+- 800+ concerts, 15 albums studio, 200+ élèves
+- Négociation commerciale, gestion de projet, discipline de travail
 
-- Analyse de données : SQL , Excel, Python (en apprentissage)
-- Modélisation et transformation de données : dbt 
-- Visualisation : Looker Studio,  Superset, Tableau …
-- Intégration de données : Airbyte, intégration API (Postman)
-- Contrôle de version : Git, GitHub
-- Web : Google Analytics, Google Tag Manager, Matomo
+## STACK TECHNIQUE
 
-## COMPÉTENCES SOFT
-
-- Créativité autour de la résolution de problèmes
-- Connaissance du marché et conscience stratégique
-- Mindest d’apprentissage continu
-- Collaboration interdisciplinaire
+- **Data Engineering** : Python, dlt, SQL, dbt, DuckDB, BigQuery
+- **Automatisation & IA** : LangGraph, LangChain, LLM (Gemini, DeepSeek)
+- **Infrastructure** : Docker, Traefik, GitHub Actions, VPS Linux
+- **Web Scraping** : Playwright, Firecrawl, API REST/GraphQL
+- **Web Analytics** : Matomo, Google Analytics 4, Google Tag Manager
 
 ## LANGUES
 
-- Français : Natif  
-- Anglais : B2  
+- Français : Natif
+- Anglais : B2
 - Espagnol : Conversationnel
