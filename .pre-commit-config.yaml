@@ -1,0 +1,141 @@
+# =============================================================================
+# Pre-commit hooks — Security & Quality
+# =============================================================================
+# SETUP (once per repo):
+#   cp ~/dev/.pre-commit-config.yaml.template .pre-commit-config.yaml
+#   pre-commit install
+#   detect-secrets scan > .secrets.baseline && git add .secrets.baseline
+#   pre-commit run --all-files   # first-time scan
+#
+# UPDATE hooks to latest versions:
+#   pre-commit autoupdate
+#
+# BYPASS (emergency only, never routine):
+#   git commit --no-verify -m "..."
+# =============================================================================
+
+repos:
+
+  # ---------------------------------------------------------------------------
+  # 1. SENSITIVE FILENAME BLOCK — runs first, blocks by filename pattern
+  # ---------------------------------------------------------------------------
+  # First line of defense: catches .env, .env.local, *.key, *.pem, etc.
+  # before any content scanning even starts.
+  #
+  - repo: local
+    hooks:
+      - id: block-sensitive-files
+        name: "🔒 Block sensitive files from staging"
+        language: fail
+        entry: >
+          BLOCKED: Sensitive file detected in staging area.
+          Files matching .env*, *.key, *.pem, *.secret, credentials.json,
+          service-account*.json must NEVER be committed.
+          Fix: git rm --cached <file> && echo '<file>' >> .gitignore
+        files: |
+          (?x)(
+            (^|/)\.env$|
+            (^|/)\.env\.(?!example$|sample$|template$)[^/]*$|
+            \.key$|
+            \.pem$|
+            \.p12$|
+            \.pfx$|
+            \.secret$|
+            (^|/)credentials\.json$|
+            (^|/)service-account.*\.json$|
+            (^|/)\.aws/credentials$|
+            (^|/)\.ssh/id_rsa$|
+            (^|/)\.ssh/id_ed25519$|
+            (^|/)\.ssh/id_ecdsa$
+          )
+
+      # Ensures .env.example never contains real-looking secret values
+      - id: check-env-example-no-real-values
+        name: "🔒 Check .env.example has no real secret values"
+        language: pygrep
+        entry: |
+          (?x)(
+            =\s*sk-[a-zA-Z0-9]{20,}|
+            =\s*ghp_[a-zA-Z0-9]{36}|
+            =\s*gho_[a-zA-Z0-9]{36}|
+            =\s*github_pat_[a-zA-Z0-9_]{82}|
+            =\s*AKIA[0-9A-Z]{16}|
+            =\s*xox[baprs]-[0-9a-zA-Z\-]{10,}|
+            =\s*sk_live_[a-zA-Z0-9]{24,}|
+            =\s*rk_live_[a-zA-Z0-9]{24,}|
+            =\s*SG\.[a-zA-Z0-9_-]{22}\.[a-zA-Z0-9_-]{43}|
+            =\s*ey[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}
+          )
+        files: \.env\.example$
+
+      # Blocks .opencode/* AI config files (local only, never commit)
+      - id: block-opencode-files
+        name: "🤖 Block .opencode/* AI config files"
+        language: fail
+        entry: >
+          BLOCKED: .opencode/ files are OpenCode local AI config and must NOT be committed.
+          Fix: git rm --cached <file> && echo '.opencode/' >> .gitignore
+        files: (^|/)\.opencode/
+
+  # ---------------------------------------------------------------------------
+  # 2. PRE-COMMIT-HOOKS — general quality + private key detection
+  # ---------------------------------------------------------------------------
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      # Detects PEM private keys (RSA, EC, DSA, OpenSSH)
+      - id: detect-private-key
+
+      # Blocks files > 500KB (prevents accidental DB dumps, binary blobs)
+      - id: check-added-large-files
+        args: [--maxkb=500]
+
+      # Merge conflict markers left in files
+      - id: check-merge-conflict
+
+      # Syntax checks
+      - id: check-yaml
+        args: [--unsafe]
+      - id: check-json
+      - id: check-toml
+
+      # Broken symlinks
+      - id: check-symlinks
+
+      # Trailing whitespace & EOF normalization
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+
+      # Executable bit on shell scripts
+      - id: check-executables-have-shebangs
+
+  # ---------------------------------------------------------------------------
+  # 3. DETECT-SECRETS — scans file CONTENT for ~30 secret types
+  # ---------------------------------------------------------------------------
+  # Covers: OpenAI, AWS, GitHub, Stripe, Slack, Twilio, SendGrid,
+  #         JWT, Base64 encoded secrets, hex strings, basic auth URLs, etc.
+  #
+  # IMPORTANT: generate baseline on first install to mark known false positives:
+  #   detect-secrets scan > .secrets.baseline
+  #   git add .secrets.baseline
+  #
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0
+    hooks:
+      - id: detect-secrets
+        args: [--baseline, .secrets.baseline]
+        # Exclude files that legitimately contain placeholder-looking strings
+        exclude: |
+          (?x)^(
+            \.secrets\.baseline|
+            .*\.example$|
+            .*\.sample$|
+            .*\.template$|
+            .*test.*|
+            .*spec.*|
+            .*fixture.*|
+            .*mock.*|
+            CHANGELOG.*|
+            .*\.lock$|
+            .*\.svg$
+          )$
