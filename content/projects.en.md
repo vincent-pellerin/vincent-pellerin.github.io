@@ -64,7 +64,7 @@ slug = "projects"
 
 ## 2025
 
-### Data Analyst & Digital Marketer [Les Bredelers][bredlink]
+### AI Data Engineer - Mission ELT et analytics [Les Bredelers][bredlink]
 
 Find optimal insights for music band development\
 Tracking website visitors with matomo\

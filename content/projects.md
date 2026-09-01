@@ -64,7 +64,7 @@ slug = "projects"
 
 ## 2025
 
-### Data Analyst & Digital Marketer [Les Bredelers][bredlink]
+### AI Data Engineer - Mission ELT et analytics [Les Bredelers][bredlink]
 
 Recherche de données optimales pour le développement du groupe\
 Tracking des visiteurs sur le site (matomo analytics)\

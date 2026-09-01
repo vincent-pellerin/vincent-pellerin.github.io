@@ -1,5 +1,5 @@
-baseURL = "https://portfolio.vpdata.fr"
-title = "Vincent Pellerin Portfolio"
+baseURL = "https://portfolio.vpdata.fr/"
+title = "Vincent Pellerin - AI Data Engineer"
 theme = "hugo-coder"
 languageCode = "fr"
 defaultContentLanguage = "fr"
@@ -26,9 +26,9 @@ unsafe = true
 [params]
 author = "Vincent Pellerin"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Vincent Pellerin Data Portfolio"
-keywords = "blog,developer,personal,data,analytics"
-info = ["Product & Data Strategist", "Psychology & AI"]
+description = "Vincent Pellerin, AI Data Engineer indépendant à Strasbourg. Systèmes data et IA en production : pipelines ELT, agents LLM, observabilité et évaluation."
+keywords = "AI Data Engineer, Data Engineer, agents LLM, LangGraph, RAG, dbt, dlt, DuckDB, BigQuery, MLOps, observabilité LLM, Strasbourg, freelance"
+info = ["AI Data Engineer", "Systèmes data et IA en production"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
