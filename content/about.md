@@ -1,54 +1,77 @@
 +++
 title = "À propos"
-description = "Product & Data Strategist — Psychologie & IA"
-date = "2026-06-28"
+description = "AI Data Engineer indépendant à Strasbourg - data en production et prototypage IA"
+date = "2026-10-12"
+lastmod = "2026-10-12"
 aliases = ["about-fr"]
 author = "Vincent Pellerin"
 +++
 
-**Product & Data Strategist** — Je construis des produits data qui transforment
-les signaux utilisateurs en décisions actionnables.
+**AI Data Engineer indépendant, basé à Strasbourg.** Je conçois et j'opère des
+systèmes data en production, et je prototype des usages IA quand le besoin
+demande encore à être exploré.
 
-Ce qui me différencie : 20 ans de lecture des dynamiques humaines (psychologie,
-musique, pédagogie) combinés à une stack data opérationnelle de bout en bout.
-Ratio 60/40 psychologie/data — je lis les besoins latents là où la plupart des
-profils data ne lisent que les chiffres.
+## CE QUE JE FAIS
 
-## CE QUE JE CONSTRUIS
-
-- **Produits data full-stack** : ingestion API → modélisation SQL/dbt → interface → déploiement Docker
-- **Automatisation par agents IA** : pipelines LangGraph, scripts Python, cron VPS
-- **Infrastructure autonome** : VPS Linux, Traefik, CI/CD GitHub Actions
+- **Pipelines et plateformes data** : acquisition multi-sources, transformation
+  dbt, exposition de données fiables (ingestion, modélisation, orchestration,
+  monitoring).
+- **Workflows et prototypage IA** : chaînes RAG, orchestration d'agents,
+  évaluation de comportements de délégation - du prototype à la mise en service
+  quand le besoin est stabilisé.
+- **Cadrage et médiation** : traduire un besoin métier en solution technique,
+  puis rendre la solution lisible et adoptable.
 
 ## EXPÉRIENCE
 
-### Product & Data — Les Bredelers (2024-présent)
+### Plateforme de veille emploi - en production
 
-- Pipeline ELT unifié YouTube + Meta : ingestion dlt, transformations dbt, stockage BigQuery
-- Modèle OBT ~2 300 lignes alimentant un dashboard analytics
-- Orchestration automatisée via GitHub Actions (3 runs/jour)
+- Acquisition et consolidation d'offres tech depuis 14 sources
+- Ingestion dlt, transformation dbt, stockage BigQuery sur GCP, orchestration Airflow
+- Accès public : [jobs.vpdata.fr](https://jobs.vpdata.fr/)
+- Limite assumée : dépendance au cloud GCP et à des APIs externes de scoring, le
+  système n'est pas souverain de bout en bout
 
-### Web Analytics — OTM Festival (2025)
+### Mission client - Les Bredelers (2025)
 
-- Déploiement on-premise de Matomo Analytics (Docker VPS)
-- Gestion du consentement RGPD, anonymisation des utilisateurs
-- Analyse des ventes : 50% des billets vendus à J-4
+- Structuration de la donnée marketing du groupe : YouTube Analytics et Meta
+  Graph API vers BigQuery
+- Transformations dbt, orchestration via GitHub Actions
 
-### Musicien professionnel (2006-2023)
+### Web analytics - OTM Festival (2025)
 
-- 800+ concerts, 15 albums studio, 200+ élèves
-- Négociation commerciale, gestion de projet, discipline de travail
+- Déploiement de Matomo en on-premise (Docker, VPS)
+- Suivi des visites, gestion du consentement RGPD, analyse des ventes
 
-## STACK TECHNIQUE
+### Musicien professionnel (2006-2022)
 
-- **Data Engineering** : Python, dlt, SQL, dbt, DuckDB, BigQuery
-- **Automatisation & IA** : LangGraph, LangChain, LLM (Gemini, DeepSeek)
-- **Infrastructure** : Docker, Traefik, GitHub Actions, VPS Linux
-- **Web Scraping** : Playwright, Firecrawl, API REST/GraphQL
-- **Web Analytics** : Matomo, Google Analytics 4, Google Tag Manager
+- Plus de 200 élèves formés en cours individuels et collectifs
+- Collaboration artistique et gestion d'une structure associative (budget,
+  gouvernance, subventions)
+- Négociation commerciale et conduite de projets
+
+## PROTOTYPES ET TRAVAUX EXPÉRIMENTAUX
+
+- **RAG local (POC)** : chaîne documentaire locale avec Ollama, LlamaIndex, FAISS
+  et SQLite. Prototype, pas un service en production.
+- **Benchmarks d'agents** : protocoles et résultats empiriques sur la délégation à
+  des agents. Travaux expérimentaux.
+
+## STACK
+
+- **Data** : Python, SQL, dlt, dbt, DuckDB, BigQuery, Airflow
+- **IA et prototypes** : LangGraph, LlamaIndex, Ollama, embeddings, évaluation d'agents
+- **Infrastructure** : Docker, Traefik, GitHub Actions, VPS Linux, GCP
+- **Web analytics** : Matomo, Google Analytics 4
+
+## FORMATION ET PARCOURS
+
+- Master de psychologie, spécialité interculturelle
+- Parcours technique construit en autonomie sur des projets réels
+- Le regard psychologique sert la lecture des besoins et l'adoption des outils
 
 ## LANGUES
 
-- Français : Natif
-- Anglais : B2
-- Espagnol : Conversationnel
+- Français : natif
+- Anglais : professionnel
+- Espagnol : courant

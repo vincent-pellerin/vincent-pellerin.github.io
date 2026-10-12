@@ -1,100 +1,116 @@
 +++
 title = "Projets"
 slug = "projects"
+description = "Réalisations data en production, prototypes IA et projets expérimentaux - Vincent Pellerin, AI Data Engineer"
+date = "2026-10-12"
+lastmod = "2026-10-12"
 +++
 
-## 2026
+Les projets sont classés par maturité : ce qui tourne en production ou a été
+livré à un client, ce qui reste expérimental, et ce qui est en pause ou arrêté.
+Une réalisation ne signifie pas qu'un service est encore actif aujourd'hui.
 
-### Data Pipelines & Automatisation
+## Production et réalisations client
 
-**Job Market Intelligence Engine** `[repo privé]`
-- **13 plateformes** de recrutement analysées quotidiennement
-- **~7 800 offres** d'emploi tech agrégées dans 2 bases DuckDB
-- Pipeline CI/CD 3 étapes (lint → test → deploy) — **222 tests**
-- Serveur MCP exposant les données en temps réel aux agents IA
-- Python · dlt · DuckDB · FastMCP · pydantic · typer · loguru
+### Plateforme de veille emploi (job_scraping)
 
-**Deep Research Agent** `[repo privé]`
-- Pipeline agentic LangGraph **9-10 nœuds** : recherche → vérification → synthèse
-- **3 LLMs** orchestrés (Gemini 2.5 Pro, DeepSeek V4, DeepSeek Chat)
-- Fetching parallèle : **5 URLs simultanées** avec régulation (Semaphore)
-- Rapports markdown structurés générés automatiquement **3x/semaine** (cron Docker VPS)
-- **170 tests** · LangGraph · LangChain · Serper · httpx · Docker
+- **Finalité** : acquérir et consolider les offres tech pour l'analyse de marché
+- **Contribution** : conception et exploitation d'une plateforme à 14 sources,
+  ingestion dlt, transformation dbt, stockage BigQuery sur GCP, orchestration Airflow
+- **État** : en production, accès public
+- **Lien** : [jobs.vpdata.fr](https://jobs.vpdata.fr/)
+- **Limite** : dépendance au cloud GCP et à des APIs externes de scoring, pas
+  souverain de bout en bout
+- **Technologies** : Python, dlt, dbt, BigQuery, GCP, Airflow, DuckDB
 
-**Knowledge Base Automation** `[repo privé]`
-- Vault Obsidian **43 000+ documents** — second cerveau personnel
-- **37 000+ fiches** wiki générées automatiquement par LLM
-- Recherche hybride BM25 + vectoriel (QMD) · embeddings GPU (ROCm, RX 7800 XT)
-- Multi-provider LLM (Gemini, Inception Labs)
-- Python · Gemini API · QMD · Obsidian
+### Agrégateur immobilier - Immo-Stras
 
-### Web Scraping & Données de Marché
+- **Finalité** : suivre les annonces immobilières à Strasbourg
+- **Contribution** : scraping LeBonCoin avec filtrage géographique, dashboard
+  FastAPI, déduplication exacte et floue, déploiement Docker et Traefik
+- **État** : réalisation ; accès authentifié, pas une démonstration publique
+- **Technologies** : Python, FastAPI, SQLAlchemy, Docker, Traefik
 
-**Immo-Stras — Agrégateur Immobilier** [GitHub][immolink]
-- En production depuis 2025 : **[immo.vpdata.fr][immosite]**
-- Scraping LeBonCoin avec filtrage géographique (Strasbourg, 5 codes postaux)
-- Dashboard web FastAPI + déduplication intelligente (matching exact + fuzzy)
-- Déploiement Docker + Traefik + HTTPS · CI/CD GitHub Actions · intégration n8n
-- FastAPI · SQLAlchemy · Docker · Traefik · n8n
+### Mission client - Les Bredelers (2025)
 
-**Tesla Market Analyzer** `[repo privé]`
-- Analyse de marché automatisée : prix, kilométrage, état de batterie
-- **237 tests** unitaires avec isolation complète des bases (DuckDB/SQLite)
-- CI/CD GitHub Actions + notifications Discord
-- **17 commandes** CLI (Typer + Rich) : stats, best-deals, report
-- Python · DuckDB · Pydantic · Typer · GitHub Actions
+- **Finalité** : structurer la donnée marketing du groupe pour piloter sa
+  présence en ligne
+- **Contribution** : ingestion YouTube Analytics et Meta Graph API vers BigQuery,
+  transformations dbt, orchestration GitHub Actions
+- **État** : réalisation client livrée
+- **Technologies** : Python, dlt, dbt, BigQuery, YouTube Analytics API, Meta Graph API
 
-### Outils & Infrastructure
+### Web analytics - OTM Festival (2025)
 
-**Cognitive Framework** `[repo privé]`
-- Architecture hybride S1/S2 pour agents de codage — **1 148 tests** passants
-- **6 types** de projets gérés automatiquement (web, api, data, cli, lib, bot)
-- Serveur MCP 7 outils (FastMCP/stdio) · profils installables
-- LangGraph · LangChain · Pydantic · pytest · FastMCP
+- **Finalité** : mesurer l'audience et les ventes du festival
+- **Contribution** : déploiement de Matomo en on-premise, suivi des visites,
+  gestion du consentement RGPD, analyse des ventes
+- **État** : réalisation
+- **Technologies** : Matomo, Docker, VPS, RGPD
 
-**Second Brain Workflow** `[repo privé]`
-- Pipeline multi-sources (YouTube, Medium, articles web) → notes Obsidian structurées
-- **5 phases** de développement · **~10 000 lignes** Python · **336 fonctions**
-- Résumés IA via Gemini 2.5 Flash (contexte 1M tokens)
-- Interface Telegram : commandes /batch, /enrich, /index
-- Anti-détection : rotation proxy Webshare, cookie management
-- Support multi-langues avec fallback automatique (fr → en)
-- Déploiement VPS avec systemd · pipeline state tracking
-- Python · Gemini API · yt-dlp · Telegram Bot API · Obsidian
+## Études indépendantes
 
-## 2025
+### Étude - professionnels du spectacle vivant (2025)
 
-### AI Data Engineer - Mission ELT et analytics [Les Bredelers][bredlink]
+- **Finalité** : lire l'effet du COVID sur le secteur du spectacle vivant
+- **Contribution** : nettoyage et analyse de données (BigQuery, SQL, Google
+  Sheets), segmentation, visualisations (Datawrapper)
+- **État** : étude indépendante
+- **Technologies** : BigQuery, SQL, Google Sheets, Datawrapper
 
-Recherche de données optimales pour le développement du groupe\
-Tracking des visiteurs sur le site (matomo analytics)\
-Évaluation de la performance de contenu sur les réseaux sociaux (Youtube & Meta)\
-Développement stratégique : retours et conseils\
+## Prototypes et travaux expérimentaux
 
-**Social Media Analytics Pipeline** `[repo privé]`
-- Pipeline ELT unifié YouTube + Meta : ingestion dlt, transformations dbt
-- Modèle OBT **~2 300 lignes** dans BigQuery, 4 datasets
-- Orchestration GitHub Actions (3 runs/jour)
-- Python · dlt · dbt · BigQuery · YouTube API · Meta Graph API
+### RAG local - chemin documentaire (POC)
 
-### Tracking [OTM festival][otmlink]
+- **Finalité** : interroger un corpus documentaire local
+- **Contribution** : chaîne Ollama, LlamaIndex, FAISS et SQLite ; le projet global
+  prévoit aussi des options cloud
+- **État** : prototype, pas en production
+- **Technologies** : Ollama, LlamaIndex, FAISS, SQLite, Python
 
-Installation Matomo Analytics sur un VPS personnel\
-Suivi des visites\
-Analyse des ventes\
-...
+### Benchmarks d'agents
 
-### [Étude des professionnels du spectacle vivant][etudelink]
+- **Finalité** : comparer le comportement de délégation d'agents LLM
+- **Contribution** : protocoles expérimentaux et résultats empiriques
+- **État** : travaux expérimentaux
+- **Technologies** : Python, APIs LLM, protocoles de test
 
-Effondrement du secteur du spectacle vivant suite au COVID (2025)\
-Impact du COVID-19 sur le secteur du spectacle vivant : - 80% de renouvellements de licences\
-Nettoyage et analyse de 80.000 lignes avec BigQuery, SQL et Google Sheets\
-Segmentation des données pour isoler les acteurs majeurs du secteur\
-Visualisations graphiques : cartes, graphiques, tableaux (Datawrapper, Google Sheet)\
-Identification des secteurs dominants et des types d'utilisateurs clés (par exemple, individuels contre autres personnes physiques)
+### Base de connaissance Obsidian (obsidian-wiki)
 
-[immolink]: https://github.com/vincent-pellerin/immo-stras
-[immosite]: https://immo.vpdata.fr
-[otmlink]: https://otmfestival.fr
-[etudelink]: https://pitch.com/v/etude-march-professionnels-spectacle-vivant-sg8287?ref=portf0lio
-[bredlink]: https://www.bredelers.com
+- **Finalité** : transformer un corpus documentaire en base consultable
+- **Contribution** : génération de fiches, recherche hybride texte et vectorielle,
+  embeddings sur GPU local
+- **État** : réalisation
+- **Technologies** : Python, API LLM, recherche hybride, Obsidian
+
+### Second Brain Workflow
+
+- **Finalité** : transformer des sources hétérogènes en notes structurées
+- **Contribution** : pipeline multi-sources (vidéos, articles) vers Obsidian,
+  résumés par LLM, interface Telegram, déploiement VPS avec suivi d'état
+- **État** : réalisation
+- **Technologies** : Python, API LLM, yt-dlp, Telegram Bot API, Obsidian
+
+### Analyse de marché automobile (Tesla)
+
+- **Finalité** : suivre les prix et l'état des véhicules d'occasion
+- **Contribution** : acquisition de données, déduplication, commandes CLI de suivi
+- **État** : réalisation
+- **Technologies** : Python, DuckDB, Pydantic, Typer
+
+## Projets en pause ou arrêtés
+
+### Cognitive Framework - expérimentation S1/S2 (en pause)
+
+- **Finalité** : explorer une architecture d'agents inspirée des systèmes 1 et 2
+- **Contribution** : mémoire SQLite/FTS5, serveur MCP, profils d'agents
+- **État** : en pause depuis plusieurs mois
+- **Technologies** : Python, SQLite, MCP, LLM
+
+### Deep Research - agent LangGraph (arrêté)
+
+- **Finalité** : produire des rapports de recherche vérifiés
+- **Contribution** : graphe LangGraph, validation humaine, checkpoints, contrôle
+  de budget
+- **État** : arrêté
+- **Technologies** : LangGraph, LangChain, Python

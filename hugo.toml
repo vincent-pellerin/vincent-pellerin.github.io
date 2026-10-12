@@ -26,9 +26,9 @@ unsafe = true
 [params]
 author = "Vincent Pellerin"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Vincent Pellerin, AI Data Engineer indépendant à Strasbourg. Systèmes data et IA en production : pipelines ELT, agents LLM, observabilité et évaluation."
+description = "Vincent Pellerin, AI Data Engineer indépendant à Strasbourg. Data en production et prototypage IA : pipelines ELT, workflows agentiques, évaluation."
 keywords = "AI Data Engineer, Data Engineer, agents LLM, LangGraph, RAG, dbt, dlt, DuckDB, BigQuery, MLOps, observabilité LLM, Strasbourg, freelance"
-info = ["AI Data Engineer", "Systèmes data et IA en production"]
+info = ["AI Data Engineer", "Data en production et prototypage IA"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
@@ -225,6 +225,10 @@ url = "contact/"
 
 [languages.en]
 languageName = ":uk:"
+
+[languages.en.params]
+description = "Vincent Pellerin, independent AI Data Engineer based in Strasbourg. Data in production and AI prototyping: ELT pipelines, agentic workflows, evaluation."
+info = ["AI Data Engineer", "Data in production and AI prototyping"]
 
 [[languages.en.menu.main]]
 name = "About"

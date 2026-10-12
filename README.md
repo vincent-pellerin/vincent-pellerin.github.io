@@ -2,26 +2,23 @@
 [![Theme: Hugo Coder](https://img.shields.io/badge/theme-hugo--coder-blue)](https://github.com/luizdepra/hugo-coder)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Portfolio – Data Analyst / Analytics Engineer
+# Portfolio - Vincent Pellerin, AI Data Engineer
 
-Welcome to the repository of my professional portfolio. This static site is built with [Hugo](https://gohugo.io/) and uses the [hugo-coder](https://github.com/luizdepra/hugo-coder) theme. It showcases my background, projects, and contact information.
+Repository of my professional portfolio. This static site is built with [Hugo](https://gohugo.io/) and uses the [hugo-coder](https://github.com/luizdepra/hugo-coder) theme. It presents my background, projects, and contact information.
 
-
-
-
-🔗 [Visit the site](https://vincent-pellerin.github.io)
+🔗 [Visit the site](https://portfolio.vpdata.fr) (canonical URL ; also served at [vincent-pellerin.github.io](https://vincent-pellerin.github.io))
 
 ## 🧾 About
 
-This section includes my résumé, an overview of my background, and key skills in data analysis, data visualization, modeling, and analytics engineering.
+An overview of my background and skills : data engineering in production and AI prototyping.
 
 ## 🛠️ Projects
 
-A selection of personal and professional projects related to data: exploratory analysis, dashboards, automations, ELT pipelines, and more.
+Production work and client deliveries, independent studies, experimental prototypes, and paused or stopped projects. They are grouped by maturity.
 
 ## 📫 Contact
 
-All ways to reach me (email, LinkedIn, etc.) are available in this section.
+Ways to reach me (email, LinkedIn, GitHub).
 
 ---
 
