@@ -27,9 +27,7 @@ Independent AI Data Engineer, based in Strasbourg.
   </a>
 </div>
 
-<p style="margin-top: 30px;">Email : <a href="mailto:vpellerindata@gmail.com">vpellerindata@gmail.com</a></p>
-
-<p>An example in production : <a href="https://jobs.vpdata.fr/">jobs.vpdata.fr</a></p>
+<p style="margin-top: 30px;">An example in production : <a href="https://jobs.vpdata.fr/">jobs.vpdata.fr</a></p>
 
 </div>
 
